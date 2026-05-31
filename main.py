@@ -9,3 +9,11 @@ print(5)
 print(10.5)
 
 print(type("Ahmed"))
+
+#variables
+
+age = 18      # قيمة age تساوي 18
+
+#تطبيق على print , type , data types , variables
+print(type(age)) # النتيجة ستكون <class 'int'>
+
