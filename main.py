@@ -1,35 +1,19 @@
-# lists : القوائم
+#loop / التكرار
 
-students = ["Ahmed", "Mohamed", "Mahmoud"]
+#for in
+# total = 0
 
-# lists tools : أدوات في القوائم
+# for i in range(10,21):
+#     total += i
 
-# #append At the END! في نهاية القائمة
-# print(f"Before {students}")
-# students.append("Adel")
-# print(f"After {students}")
+# print(f"total is : {total}")
 
-# #insert (Index , object) إضافة في مكان محدد
-# print(f"Before {students}")
-# students.insert(0 , "Adel")
-# print(f"After {students}")
+#while loop
 
-# #Remove مسح العنصر باسمه من القائمة
-# print(f"Before {students}")
-# students.remove(students[0])
-# print(f"After {students}")
+# i = 0
+# while i <= 3:
+#     print(i)
+#     i+=1
 
-# #del أمر مسح صريح للعنصر من الذاكرة بالـ Index
-# print(f"Before {students}")
-# del students[0]
-# print(f"After {students}")
-
-# #pop أساسها مسح العنصر الأخير ولكن تستطيع ادخال index
-# print(f"Before {students}")
-# students.pop(0)
-# print(f"After {students}")
-
-# #clear تنظيف اللستة بالكامل وتركها قائمة فارغة []
-# print(f"Before {students}")
-# students.clear()
-# print(f"After {students}")
+# for i in range(3):
+#     print(i)
