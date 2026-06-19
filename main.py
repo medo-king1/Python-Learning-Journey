@@ -1,19 +1,23 @@
-#loop / التكرار
+#lists loop / التكرار مع القوائم
 
-#for in
-# total = 0
+#project
+# grades = [50 , 84 , 25 , 93 , 96]
+# new_grades = []
+# bonus = 5
+# for gra in grades:
+#     total = gra+bonus
+#     if total > 100 :
+#         total = 100
+#     new_grades.append(total)
+# print(f"original grades : {grades}")
+# print(f"new grades : {new_grades}")
 
-# for i in range(10,21):
-#     total += i
+# STR
+# list1 = ["ahmed","mohamed","mahmoud","adel"]
+# for x in list1:
+#     print(x)
 
-# print(f"total is : {total}")
-
-#while loop
-
-# i = 0
-# while i <= 3:
-#     print(i)
-#     i+=1
-
-# for i in range(3):
-#     print(i)
+# INT
+# numbers = [1,2,3,4,5,6]
+# for num in numbers:
+#     print(num*2)
