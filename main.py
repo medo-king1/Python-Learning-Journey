@@ -1,12 +1,17 @@
-# Break / Continue
+# function / الدوال
+# def greet():
+#     print("Hello Ahmed")
+# greet()
+# greet()
 
+#Parameter / المعامل
+# def Say_Hello(name):
+#     print(f"Hello {name}")
+# Say_Hello()
 
-
-# for i in range(1,8):
-#     if i == 3:
-#         print("sorry number 3 but ..")
-#         continue
-#     if i >=7:
-#         print("STOP HERE !")
-#         break
-#     print(i)
+#return
+# def add_numbers(num1, num2):
+#     result = num1 + num2
+#     return result
+# total = add_numbers(5, 10)
+# print(total)
